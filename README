@@ -13,6 +13,11 @@ PROPERTIES
 
 * Not hidden attributes
 
+FEATURES
+
+* multi visual cut & paste buffers
+* reorganisation based on structure blocks (not on text level)
+
 SKETCH
 
 It is neither a WYSIWYG editor nor a plain text editor. 
