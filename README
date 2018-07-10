@@ -29,5 +29,5 @@ Both contain editable lines.
 Attributes about the story are set in story view, attributes about the book in book view.
 Story is about text and details, book about organisation.
 
-    {page: begin unnumbered}
-    {scene: begin}
+    @page:begin unnumbered
+    @scene:begin storyline:A
