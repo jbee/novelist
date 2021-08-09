@@ -1,13 +1,13 @@
 Novelist is the idea of a document editor specifically made for authors of literature style books. 
-It should allow to edit large documents fast and safe and gives athors possibility to order and navigate their works 
+It should allow to edit large documents fast and safe and gives authors possibility to order and navigate their works 
 in a way that is intuitive and that makes sense to a creative mind rather then suiting a computer or program.
 
 PRINCIPLES
 
-1. Usability over Visual Aapearence
+1. Usability over Visual Appearance
 2. Clarity over Convenience
 3. Purposefulness over Flexibility
-4. Intent over Rigour
+4. Intent over Rigor
 
 PROPERTIES
 
@@ -16,18 +16,19 @@ PROPERTIES
 FEATURES
 
 * multi visual cut & paste buffers
-* reorganisation based on structure blocks (not on text level)
+* reorganization based on structure blocks (not on text level)
 
 SKETCH
 
 It is neither a WYSIWYG editor nor a plain text editor. 
 It uses and shows "markups" for styles and layout hints but does not expect the author to "know" or type them.
-The hints are visualised to a extend that helps the author organizing and navigating his work.
+The hints are visualized to a extend that helps the author organizing and navigating his work.
 
-Two main views: story (left) and book (right). 
-Both contain editable lines. 
-Attributes about the story are set in story view, attributes about the book in book view.
-Story is about text and details, book about organisation.
+Two main views: 
 
+* story (left): organizes text into scenes in multiple storylines
+* book (right): organizes text into a book edition (multiple parallel are possible) 
+
+    @book:1st-edition footer:[page-number] header:[chapter]
     @page:begin unnumbered
-    @scene:begin storyline:A
+    @scene:1 storyline:A
